@@ -73,27 +73,27 @@
 //==================ПОВТОРЯТЬ==============
 
 
-//============FUNCTION EXPRESSION===============
+
+let userInfo = {
+    name: 'vasia',
+}
+console.log(userInfo);
+
+userInfo.age = 30;
+console.log(userInfo);
+
+userInfo['likes JS'] = true;
+console.log(userInfo);
+
+userInfo.address = {
+    city: 'Minsk',
+    street: 'Shevchenko',
+}
+console.log(userInfo);
+console.log(userInfo.address);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
 
