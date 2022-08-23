@@ -74,26 +74,106 @@
 
 
 
-let userInfo = {
-    name: 'vasia',
-}
-console.log(userInfo);
+// let userInfo = {
+//     name: 'vasia',
+// }
+// console.log(userInfo);
 
-userInfo.age = 30;
-console.log(userInfo);
+// userInfo.age = 30;
+// console.log(userInfo);
 
-userInfo['likes JS'] = true;
-console.log(userInfo);
+// userInfo['likes JS'] = true;
+// console.log(userInfo);
 
-userInfo.address = {
-    city: 'Minsk',
-    street: 'Shevchenko',
-}
-console.log(userInfo);
-console.log(userInfo.address);
+// userInfo.address = {
+//     city: 'Minsk',
+//     street: 'Shevchenko',
+// }
+// console.log(userInfo);
+// console.log(userInfo.address);
 
 
-  
+
+
+
+// const myCity = {
+//     city: 'Minsk',
+//     info:{
+//         isPopular: false,
+//         country: 'belarus',
+//     }
+// }
+// console.log(myCity.info);
+// myCity.info.capital = true;
+// console.log(myCity.info);
+// delete myCity.info.country;
+// console.log(myCity.info);
+
+
+// использование переменных в обьектах
+// const name = 'Yury'
+// const postQty = 50;
+// const userProfile = {
+//     name: name,
+//     postQty: postQty,
+//     hasSignedAgreement: false,
+// }
+// console.log(userProfile);
+
+// const name = 'Yury'
+// const postQty = 50;
+// const userProfile = {
+//     name,
+//     postQty,
+//     hasSignedAgreement: false,
+// }
+// console.log(userProfile);
+
+
+// const myCity = {
+//     city: 'Minskk',
+//     cityGreeting: function (name) {
+//         console.log(`Greetings ${name}`);
+//     }
+// }
+// myCity.cityGreeting(', you!')//вызов метода объекта.
+
+
+
+
+//======JSON JavaScript Object Notation======
+// {
+//     "userID": 1,
+//     "id": 1,
+//     "title": "Test title",
+//     "status": {
+//         "completed": false
+//     },
+// }
+
+
+
+
+// let a
+// let b
+
+// function myFn() {
+//     let b;
+//     a = true;
+//     b = 10;
+//     console.log(b);
+// }
+
+// myFn()
+// console.log(a);
+// console.log(b);
+
+
+// let test = {
+
+// }
+// console.log(!!test);
+
 
 
 
