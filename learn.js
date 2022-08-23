@@ -174,11 +174,26 @@
 // }
 // console.log(!!test);
 
+// const button = {
+//     width: 200,
+//     tect: 'Buy',
+// }
+// const redButton = {
+//     ...button,
+//     color: 'red', 
+// }
+// console.table(redButton);
 
-
-
-
-
+fnWithError = () => {
+    throw new Error('Some error')
+}
+try{
+fnWithError()
+} catch (error) {
+console.error(error);
+console.log(error.message);
+}
+console.log('continue...');
 
 
 
