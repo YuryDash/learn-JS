@@ -184,59 +184,145 @@
 // }
 // console.table(redButton);
 
-fnWithError = () => {
-    throw new Error('Some error')
+// fnWithError = () => {
+//     throw new Error('Some error')
+// }
+// try{
+// fnWithError()
+// } catch (error) {
+// console.error(error);
+// console.log(error.message);
+// }
+// console.log('continue...');
+
+//================ Деструктуризация =================
+// const objOne = {
+//     name: 'Yone',
+//     work: 'assasin',
+//     lastName: 'UNFORGOTTEN',
+// }
+// const {name, work, lastName} = objOne
+// console.log(name);
+// console.log(work);
+// console.log(lastName);
+// console.log(objOne);
+
+// const fruits = ['Apple', 'Banana', 'Kiwi', 'Melon'];
+// const [fruitOne, fruitTwo,fruitThree] = fruits;
+// console.log(fruitThree);
+// console.log(fruitOne);
+// console.log(fruitTwo);
+// console.log(fruits);
+
+// const objOne = {
+//     name: 'Yone',
+//     work: 'assasin',
+//     lastName: 'UNFORGOTTEN',
+
+// }
+
+// // if - else
+// const sumPositiveNumbers = (a, b) => {
+//     if (typeof a !== 'number' || typeof b !== 'number') {
+//        return console.log('One of the arguments is not a number');
+//     } else if (a <= 0 || b <= 0) {
+//        return console.log('Numbers are not positive!!');
+//     } {
+
+//         return console.log(a + b);
+//     }
+// }
+// sumPositiveNumbers(5 , 5)
+
+// const month = 2
+
+// switch (month) {
+//     case 12:
+//         console.log('ДЕКАБРЬ')
+//         break;
+//     case 1:
+//         console.log('ЯНВАРЬ');
+//         break;
+//     case 2:
+//         console.log('ФЕВРАЛЬ');
+//         break;
+//     default:
+//         console.log('ЭТО НЕ ЗИМНИЙ МЕСЯЦ');
+
+//         break;
+// }
+
+// ============== ТЕРНАРНЫЙ ОПЕРАТОР ================
+// условие ? выражение 1 : выражение 2;
+
+// const value = 11;
+
+// value 
+//     ? console.log('условие истино')
+//     : console.log('условие ложно');
+
+
+// const value1 = 11
+// const value2 = 25
+
+// value1 && value2
+//     ? myFunction1(value1, value2)
+//     : myFunction2();
+
+
+// let value = 11
+// (value >= 0 
+//     ? value 
+//     : -value);
+
+// value = -5
+// const res = value >= 0
+//     ? value
+//     : -value;
+
+// console.log(res);
+
+// ====================УИКЛЫ==============
+
+
+// const myArray = [true, 'abc', 10];
+// console.log(myArray[0]);
+// console.log(myArray[1]);
+// console.log(myArray[2]);
+
+// const myObject = {
+//     a: 10,
+//     b: 11,
+//     c: 12,
+// }
+// console.log(myObject.a);
+// console.log(myObject.b);
+// console.log(myObject.c);
+
+
+// for(let i = 0; i <= 5; i++){
+//     console.log(i)
+// }
+// console.log('                  ');
+
+// myArray.forEach((Element, index) => {
+//     console.log(Element, index)
+// })
+
+
+//===========================
+let i = 1
+while (i <= 3) {
+    console.log(i)
+    i++    
 }
-try{
-fnWithError()
-} catch (error) {
-console.error(error);
-console.log(error.message);
+//===========================
+console.log(' ')
+//===========================
+for(let i = 1; i <= 3; i++){
+    console.log(i)
 }
-console.log('continue...');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//============================
 
 
 
