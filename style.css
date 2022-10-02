@@ -1,18 +1,15 @@
-header{
-    max-width: 600px;
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
     margin: 0 auto;
-}
+  }
 
-h1{
-    color: burlywood;
-    background-color: rgb(136, 136, 136);
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 500px;
-    border-radius: 5px;
-    border: 3px solid;
-}
-h1:hover{
-box-shadow: 1px 1px 40px;
-}
+  .form input[type="number"] {
+    width: 200px;
+  }
+
+  .lastResult {
+    color: white;
+    padding: 3px;
+  }
