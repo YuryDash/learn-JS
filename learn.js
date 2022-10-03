@@ -486,15 +486,74 @@
 // }
 
 
-for (let five = 0; five <= 5; five++){
-    console.log(five);
-}
+// for (let five = 0; five <= 5; five++){
+//     console.log(five);
+// }
 //=========FOR================
 
 
 
 
+//==================function==================
 
+// function summ (numOne, numTwo) {
+//     console.log(`Переменная один: ${numOne}`);
+//     console.log(`Переменная два: ${numTwo}`);
+
+//     let culcSum = numOne + numTwo;
+
+//     console.log(`Сумма переменных = ${culcSum}`);
+// }
+// summ(10,11)
+
+
+
+// function culcSum(numOne, numTwo, more, less){
+//     let numSum = numOne + numTwo;
+
+//     if (numSum > 3) {
+//         more();
+//     } else {
+//         less();
+//     }
+// }
+
+// function showMoreMessage() {
+//     console.log(`Число  больше 3`);
+// }
+// function showLessMessage() {
+//     console.log(`Число  меньше 3`);
+// }
+// culcSum(1, 1, showMoreMessage, showLessMessage)
+
+
+// function calcSumm(numOne, numTwo) {
+//     let result = 1;
+//     for(let i = 0; i < numTwo; i++){
+//         result *= numOne;
+//     }
+//     return result;
+// }
+// console.log(calcSumm(3,3))
+// //num1 умножается на num2 раз
+
+
+// function calcSum(num1, num2){
+//     if (num2 === 1) {
+//         return num1;
+//     } else {
+//         return num1 * calcSum(num1, num2 - 1);
+//     }
+// }
+// console.log(calcSum(3,3))
+
+
+
+
+
+
+
+//==================function==================
 
 
 
