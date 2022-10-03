@@ -417,13 +417,79 @@
 
 
 
+// let q = 0;
+// console.log(q ?? 'lol');
 
 
 
+// let num = 0;
+// while (num <= 5) {
+//     console.log(num);
+//     num++;
+// }
 
 
+// let num = 5;
+// while(num) console.log(num--);
 
 
+// let start = 10;
+// while(start >= 0) {
+// console.log(start);
+// start--;
+// }
+
+//=========FOR================
+
+// for(let num = 0; num <= 10; num++){
+//     console.log(num);
+// }
+
+
+// let num = 0;
+// for(; num <= 5; num++) {
+//     console.log(num);
+// }
+
+
+// let num = 5
+// for(; num >= 0; num--){
+//     console.log(num);
+//     if (num == 2) break;
+// }
+// alert(`работа окончена , num = ${num}`);
+
+// let num = 0;
+// for (; num < 5; num++) {
+//     if (num == 3  || num == 2) continue;
+
+//     console.log(num);
+// }
+
+
+// firstFor: for (let num = 0; num < 2; num++) {
+//     for(let size = 0; size <= 5; size++) {
+//         if (size == 4) {
+//             break firstFor;
+//         }
+//         console.log(size);
+//     }
+
+// }
+
+// let num = 1;
+// while(num) {
+//     console.log(num);
+//     num++;
+
+//     if (num == 50)break;
+// }
+
+
+for (let five = 0; five <= 5; five++){
+    console.log(five);
+}
+//=========FOR================
 
 
 
