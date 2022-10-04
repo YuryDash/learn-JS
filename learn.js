@@ -578,7 +578,14 @@
 //   multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 
 
+// function UserInfo(name){
+//     this.name = name;
+//     this.age = 10;
+// }
 
+
+// console.log(new UserInfo('Vasia'));
+// console.log(new UserInfo('Petia'));
 
 
 
