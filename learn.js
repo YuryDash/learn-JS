@@ -548,22 +548,34 @@
 // console.log(calcSum(3,3))
 
 
-
-
-
-
-
 //==================function==================
 
+// Iterate Through an Array with a For Loop(CodeCamp)
+
+// const myArr = [2, 3, 4, 5, 6];
+// let total = 0;
+// for(let i = 0; i < myArr.length; i++){
+//   total += myArr[i];
+// }
+// console.log(myArr.length);
 
 
+// // Nesting For Loops(CodeCamp)
+// function multiplyAll(arr) {
+//     let product = 1;
+//   for(let i = 0; i < arr.length; i++){
+//     for(let j = 0; j < arr[i].length; j++){
+//       product *= arr[i][j];
 
+//       console.log(arr[i][j])
 
+//     }
+//     // console.log(arr[i])
 
-
-
-
-
+//   }
+//     return product;
+//   }
+//   multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 
 
 
