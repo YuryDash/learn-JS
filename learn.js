@@ -588,27 +588,96 @@
 // console.log(new UserInfo('Petia'));
 
 
+// // Iterate with JavaScript Do...while Loops
+// const myArray = [];
+// let i = 10;
+
+//  do{
+//   myArray.push(i);
+//   i++;
+// } while (i < 10);
+
+
+// //profile loockup
+
+// const contact = [
+
+//     {
+//       firstName: "Akira",
+//       lastName: "Laine",
+//       number: "0543236543",
+//       likes: ["Pizza", "Coding", "Brownie Points"],
+//     },
+  
+//     {
+//       firstName: "Harry",
+//       lastName: "Potter",
+//       number: "0994372684",
+//       likes: ["Hogwarts", "Magic", "Hagrid"],
+//     },
+  
+//     {
+//       firstName: "Sherlock",
+//       lastName: "Holmes",
+//       number: "0487345643",
+//       likes: ["Intriguing Cases", "Violin"],
+//     },
+  
+//     {
+//       firstName: "Kristian",
+//       lastName: "Vos",
+//       number: "unknown",
+//       likes: ["JavaScript", "Gaming", "Foxes"],
+//     },
+  
+//   ];
+  
+//   function lookUpProfile(name, prop) {
+    
+//     for (let i = 0; i < contact.length; i++) {
+//       if (contact[i].firstName === name) {
+//         return contact[i][prop] || 'No such property';
+//             } 
+//     }
+//     return 'No such contact';
+//   }
+  
+//   lookUpProfile("Akira", "likes");
+
+
+// //Generate Random Fractions with JavaScript
+// function randomFraction() {
+
+//     let func = Math.random()
+    
+//       return func;
+    
+//     }
+
+// console.log(randomFraction());
+// console.log(randomFraction());
+
+// console.log(randomFraction());
+// console.log(randomFraction());
+// console.log(randomFraction());
 
 
 
+// // Generate Random Whole Numbers with JavaScript
+// function randomWholeNum() {
+//     let p;
+//     p = Math.floor(Math.random() * 10);
+//       return p;
+//     }
 
+// //Generate Random Whole Numbers within a Range
+// function randomRange(myMin, myMax) {
 
+  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//     return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+  
+//   }
 
 
 
