@@ -679,6 +679,85 @@
   
 //   }
 
+// // Use the parseInt Function
+// function convertToInteger(str) {
+//     return parseInt(str);
+//     }
+//     convertToInteger('56');
+
+
+//Use the parseInt Function with a Radix
+
+// function convertToInteger(str) {
+//     return parseInt(str, 2)
+//     }
+//     convertToInteger("10011");
+
+// // Use the COnditional (ternary) Operator
+
+// function checkEqual(a, b) {
+//     return a === b ? "Equal" : "Not Equal";
+//    }
+//    checkEqual(1, 2);
+
+
+// //Use multiple Conditional Operators
+
+// function checkSign(num) {
+//     return (num > 0) ? "positive"
+//             : (num === 0) ? "zero"
+//               : "negative";
+//     }
+//     checkSign(10);
+
+
+// let myArr = [];
+// function countdown(n){
+//     if (1 > n) {
+//       return [];
+//     } else {
+//       const myArr = countdown(n - 1);
+//       myArr.unshift(n);
+//       return myArr;
+//     }
+//   }
+  
+// console.log(countdown(9));
+
+
+//Use Recursion to Create a Range of Numbers
+
+//function rangeOfNumbers(startNum, endNum) {
+//     if (endNum < startNum) {
+//         return [];
+//       } else {
+//         const num = rangeOfNumbers(startNum, endNum - 1);
+//         num.push(endNum);
+//         return num;
+//       }
+    
+    
+    
+// function checkScope() {
+//     let i = 'function scope';
+
+//   if (true) {
+//     let i = 'block scope';
+//     console.log('Block scope i is: ', i);
+//   }
+//   console.log('Function scope i is: ', i);
+//   return i;
+// }
+
+
+
+
+
+
+
+
+
+
 
 
 
